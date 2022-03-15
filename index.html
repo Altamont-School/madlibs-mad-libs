@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madlibs</title>
+    <link rel="stylesheet" href="./assets/main.css" />
+  </head>
+  <body>
+    <div class="intro">
+      <div class="wrapper">
+        <h1>Madlib's Mad Libs</h1>
+        <div class="inputs">
+          <input type="text" placeholder="noun" id="one" />
+          <input type="text" placeholder="adjective" id="two" />
+          <input type="text" placeholder="adjective" id="three" />
+          <input type="text" placeholder="verb" id="four" />
+          <a onclick="generateTemplate();">Generate My Mad Lib!</a>
+        </div>
+        <!-- Rendered output of mad lib info above -->
+        <div class="output"></div>
+      </div>
+    </div>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
