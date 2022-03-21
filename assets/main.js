@@ -1,18 +1,9 @@
-// Get the output element from the DOM
-const outputEl = document.querySelector(".output");
+// 1. Use the id-selector to get your inputs' and the output element from the DOM
 
-// A function to get the inputs from the DOM
-function getInputs() {
-  let inputs = document.querySelectorAll("input");
-  return inputs;
-}
+// 2. For each of the inputs, get the value (word) from them
 
+// 3. Generate your template using the values from above and set the output element's value equal to it!
+//HINT: You'll need a ton of code before doing anything in this function that's called in your index.html 😜
 function generateTemplate() {
-  getInputs();
-  let template = `This story is about a ${getInputs()[0].value}. A ${
-    getInputs()[0].value
-  } that is very ${getInputs()[1].value} and ${getInputs()[2].value}. The ${
-    getInputs()[0].value
-  } likes to ${getInputs()[3].value}.`;
-  outputEl.innerHTML = template;
+  
 }
